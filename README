@@ -1,0 +1,9 @@
+kNN.py - Harrington's original kNN classification method with test
+kNN_regress.py - extension of kNN.py that performs regression using
+either a simple average or a distance-weighted average.  The
+toy example demonstrates a simple property of kNN in that regression 
+estimates can never exceed the maximum of the targets in training; 
+consequently, we cannot rely on the method to generate any extrapolated
+values from the data as would be possible using e.g. linear regression.
+
+http://en.wikipedia.org/wiki/K-nearest_neighbor_algorithm
